@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\stb_image.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common\camera.h" />
+    <ClInclude Include="src\common\camera_free.h" />
+    <ClInclude Include="src\common\camera_rotate.h" />
+    <ClInclude Include="src\common\shader_helper.h" />
+    <ClInclude Include="src\common\texture.h" />
+    <ClInclude Include="src\common\transform.h" />
+    <ClInclude Include="src\stb_image.h" />
+    <ClInclude Include="src\_terrain\terrain.h" />
+    <ClInclude Include="src\player.h" />
+    <ClInclude Include="src\camera.h" />
+    <ClInclude Include="src\flyCam.h" />
+    <ClInclude Include="src\shader.h" />
+    <ClInclude Include="src\ground.h" />
+    <ClInclude Include="src\transform.h" />
+    <ClInclude Include="src\World.h" />
+    <ClInclude Include="src\Tree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\_terrain\terrain_fshader.glsl" />
+    <None Include="src\_terrain\terrain_vshader.glsl" />
+    <None Include="src\shaders\shader.fs" />
+    <None Include="src\shaders\shader.vs" />
+    <None Include="src\shaders\ground_shader.vs" />
+    <None Include="src\shaders\ground_shader.fs" />
+    <None Include="src\shaders\tree_shader.fs" />
+    <None Include="src\shaders\tree_shader.vs" />
+    <None Include="src\shaders\grass_shader.fs" />
+    <None Include="src\shaders\grass_shader.vs" />
+    <None Include="src\shaders\cubemaps.fs" />
+    <None Include="src\shaders\cubemaps.vs" />
+    <None Include="src\shaders\skybox.fs" />
+    <None Include="src\shaders\skybox.vs" />
+    <None Include="src\shaders\light_cube.fs" />
+    <None Include="src\shaders\light_cube.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{b0fe60db-4b09-44cc-b9c1-bccd7d6b3352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f751bf69-ee98-46d8-9e82-be60376d970f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\container.jpg" />
+  </ItemGroup>
+</Project>
